@@ -69,7 +69,16 @@ Copy `.env.example` to `.env.local` for a fresh setup. Server keys must never us
 
 The server verifies Firebase ID tokens, enforces 100 accepted requests per UTC calendar month with an atomic Firestore transaction, validates message roles and lengths, and loads attached images only from the bundled catalogue. The tutor receives trusted topic notes and optionally the currently selected image. Original SVG diagrams are rasterized before sending to the model. Image bytes are not retained in chat logs; text questions and answers are logged as in Tissue Deck. Accepted attempts count even if generation later fails.
 
-The ignored local environment may reuse the existing Meded Firebase project. If publishing under a new hostname, add that hostname to Firebase’s authorised domains and configure the server environment. No deployment target is linked by this repository.
+The ignored local environment reuses the existing Meded Firebase project. Production server secrets are configured in the separate Vercel `path-deck` project. If publishing under another hostname, add that hostname to Firebase’s authorised domains and configure its server environment.
+
+## Production
+
+- Live app: https://path-deck-code-2302s-projects.vercel.app/
+- GitHub: https://github.com/PranayJuneja/PathDeck
+- Production branch: `main`, connected to the separate Vercel `path-deck` project.
+- Node.js runtime: 24.x. Local environment files and Vercel credentials are ignored by Git.
+
+The stable production hostname is public. Vercel deployment protection remains enabled for preview URLs. Firebase authorises the production hostname for Google sign-in; tutor usage and logs continue to use the separate Path Deck collections.
 
 ## Verify
 

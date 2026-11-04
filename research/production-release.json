@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "repository": "https://github.com/PranayJuneja/PathDeck",
+  "productionUrl": "https://path-deck-code-2302s-projects.vercel.app/",
+  "vercelProject": "path-deck",
+  "deploymentId": "dpl_BtuBptvUAJqWMns8zpz6hreSkLVn",
+  "applicationCommit": "d96db00",
+  "runtime": "24.x",
+  "verification": {
+    "testsPassed": 20,
+    "lint": "passed",
+    "contentIntegrity": "passed: 207 topics and 525 visuals",
+    "dependencyVulnerabilities": 0,
+    "publicDesktopAndMobile": "passed: deep link, source image, study tools, no page errors or mobile horizontal overflow",
+    "unauthenticatedApi": "both endpoints return 401 JSON",
+    "authenticatedTextTutor": "200 streaming, quota 99",
+    "authenticatedMicroscopyTutor": "200 streaming, quota 98",
+    "authenticatedSvgTutor": "200 streaming, quota 97",
+    "authenticatedUsage": "200 JSON, remaining 97",
+    "testCleanup": "synthetic Firebase account, quota document and all 3 chat logs deleted",
+    "googleSignIn": "production hostname added to existing Firebase authorized domains; no real-person interactive sign-in performed"
+  },
+  "secrets": "Server secrets configured in Vercel, ignored locally and excluded from Git",
+  "previewProtection": "preserved; stable production hostname is public"
+}
