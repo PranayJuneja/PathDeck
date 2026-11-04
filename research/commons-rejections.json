@@ -1,0 +1,213 @@
+[
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photomicrographs_from_a_foothill_yellow-legged_frog_(Rana_boylii).jpg",
+    "reason": "Veterinary amphibian specimen; unsuitable as a human MBBS pathology example. Automatic searches matched coagulative necrosis in its caption."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mucinous_adenocarcinoma,_invasive,_diffuse_(3981665918).jpg",
+    "topicId": "lobar-pneumonia",
+    "reason": "Caption explicitly says adenocarcinoma simulates lobar pneumonia. It is a differential, not a pneumonia specimen."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Invasive_mucinous_adenocarcinoma,_lepidic_growth_pattern_(3931951819).jpg",
+    "topicId": "lobar-pneumonia",
+    "reason": "Caption explicitly identifies mucinous adenocarcinoma mimicking lobar pneumonia."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_cell_variant_epidermoid_carcinoma_of_the_lung_-_p63.jpg",
+    "topicId": "small-cell-lung-carcinoma",
+    "reason": "Squamous cell carcinoma variant mimics small-cell carcinoma; not an appropriate example of SCLC."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herpes_simplex_tracheobronchitis_and_small_cell_lung_carcinoma_-_Case_260_(8539430701).jpg",
+    "topicId": "small-cell-lung-carcinoma",
+    "reason": "The visible bronchial lesion is primarily herpetic erosion; coexisting SCLC is described in the wall/node rather than demonstrated clearly by this gross view."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aspergilloma_complicating_tuberculosis.jpg",
+    "topicId": "tuberculosis",
+    "reason": "Gross view is dominated by an aspergilloma in a previously tuberculous cavity. Prefer a directly demonstrated TB specimen for this core topic."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Non-small_cell_lung_carcinoma_--_low_mag.jpg",
+    "topicId": "small-cell-lung-carcinoma",
+    "reason": "Caption explicitly identifies NSCLC, with neuroendocrine stains negative. Small-cell carcinoma appears only as a differential diagnosis."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fat_embolism.JPEG",
+    "topicId": "acute-pancreatitis",
+    "reason": "The image shows pulmonary fat embolism, a systemic complication in a pancreatitis case, rather than pancreatic tissue or pancreatitis morphology."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stomach_-_Iron_Crystals_In_Gastric_Lamina_Propria_And_Epithelium_(49270585877).jpg",
+    "topicId": "iron-deficiency-anemia",
+    "reason": "This is gastric iron deposition after iron therapy, not the blood morphology of iron deficiency."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WBC_(neutrophil)_at_centre,_numerous_erythrocytes_and_platelets_(dot_like_bodies)_in_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy.jpg",
+    "topicId": "immune-thrombocytopenia",
+    "reason": "Caption explicitly describes normal neutrophils, erythrocytes and platelets. Thrombocytopenia is only mentioned as a general alternative; no ITP case is established."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nucleated_red_blood_cell_(RBC)_in_a_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy_of_an_aplastic_anemia_patient.jpg",
+    "topicId": "aplastic-anemia",
+    "reason": "Although labelled from an aplastic-anemia patient, an isolated nRBC is nonspecific and not the characteristic marrow morphology needed for this core teaching topic. Prefer a hypocellular marrow example."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sickle_cell_disease_and_cirrhosis_-_very_high_mag.jpg",
+    "topicId": "sickle-cell-disease",
+    "reason": "The source is explicitly a liver specimen showing a complication. Prefer blood films for the core sickle-cell morphology topic; this image may remain associated with cirrhosis when applicable."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sickle_cell_disease_and_cirrhosis_-_high_mag.jpg",
+    "topicId": "sickle-cell-disease",
+    "reason": "The source is explicitly a liver specimen showing a complication. Prefer blood films for the core sickle-cell morphology topic; this image may remain associated with cirrhosis when applicable."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sickle_cell_disease_and_cirrhosis_-_intermed_mag.jpg",
+    "topicId": "sickle-cell-disease",
+    "reason": "The source is explicitly a liver specimen showing a complication. Prefer blood films for the core sickle-cell morphology topic; this image may remain associated with cirrhosis when applicable."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diagnostics-10-00453-g002.webp",
+    "topicId": "type-iii-hypersensitivity",
+    "reason": "This figure describes a COVID19 lateral-flow serology assay, not typeIII hypersensitivity pathogenesis."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fpubh-08-00383-g003.jpg",
+    "topicId": "type-iii-hypersensitivity",
+    "reason": "This is an overview of SARS-CoV2 pathogenesis, not a diagram establishing typeIII hypersensitivity."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diethylstilbestrol_(des)_cervix_(70).jpg",
+    "topicId": "cervical-squamous-cell-carcinoma",
+    "reason": "The source explicitly identifies vaginal adenosis and says it should not be mistaken for dysplasia or carcinoma in situ. The Commons category is misleading for this topic."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osteosarcome_humain.jpg",
+    "reason": "CC BY3.0 metadata names an unknown creator and only links a third-party French article. Creator attribution could not be established confidently; use other well-attributed osteosarcoma assets."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray72-en.svg",
+    "topicId": "aplastic-anemia",
+    "reason": "Source caption only identifies normal human bone marrow. It does not establish hypocellular marrow or aplastic anemia and is not a valid disease illustration."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virilizing_Leydig-Sertoli_Cell_Ovarian_Tumor_Associated_with_Endometrioid_Carcinoma_of_the_Endometrium_in_a_Postmenopausal_Patient_(8258617101).png",
+    "topicId": "endometrioid-endometrial-carcinoma",
+    "reason": "Article-level case title links two tumors, but the provided source caption does not establish the endometrial tumor in this figure. Other clearly captioned endometrial examples retained."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_invasive_low-grade_serous_carcinoma_of_ovary.png",
+    "topicId": "ovarian-high-grade-serous-carcinoma",
+    "reason": "Source explicitly identifies low-grade serous carcinoma, a distinct entity from high-grade serous carcinoma."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_invasive_low-grade_serous_carcinoma_of_ovary_(original).jpg",
+    "topicId": "ovarian-high-grade-serous-carcinoma",
+    "reason": "Source explicitly identifies low-grade serous carcinoma."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benign_pancreatic_mucinous_cystic_neoplasm_-_very_low_mag.jpg",
+    "topicId": "ovarian-mucinous-tumour",
+    "reason": "Source is a pancreatic mucinous cystic neoplasm with ovarian-like stroma, not an ovarian tumor."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benign_pancreatic_mucinous_cystic_neoplasm_-_low_mag.jpg",
+    "topicId": "ovarian-mucinous-tumour",
+    "reason": "Source is a pancreatic mucinous cystic neoplasm with ovarian-like stroma, not an ovarian tumor."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_mucinous_invasive_ductal_carcinoma_of_the_breast.jpg",
+    "topicId": "invasive-breast-carcinoma-nst",
+    "reason": "Mucinous carcinoma is a special histologic type, not invasive breast carcinoma of no special type."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eos_gastroen.jpg",
+    "topicId": "acute-pancreatitis",
+    "reason": "Image is gastric-duodenal eosinophilic gastroenteritis; associated pancreatitis is the article context, not the tissue shown."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osteosarcoma.jpg",
+    "topicId": "giant-cell-tumour-of-bone",
+    "reason": "Source explicitly identifies osteosarcoma with occasional osteoclast-like giant cells, not giant cell tumor of bone. Retain for osteosarcoma only."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyogenic_Granuloma.jpg",
+    "topicId": "granulomatous-inflammation",
+    "reason": "Pyogenic granuloma is a lobular capillary hemangioma, not true granulomatous inflammation."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HSP70_in_pathologies.png",
+    "topicId": "shock",
+    "reason": "Heat-shock protein biology is not a diagram of circulatory shock."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_gecko_clot_to_Blastema.jpg",
+    "reason": "Veterinary leopard-gecko tail regeneration, not human pathology."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Multiple_tissues_and_organ_systems_are_affected_by_exercise,_initiating_diverse_homeostatic_responses.jpg",
+    "topicId": "tissue-regeneration",
+    "reason": "Exercise mimetics and whole-body training adaptation, not injury-related tissue regeneration morphology or its core mechanism."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_a_hypertrophic_scar,_medium_magnification.jpg",
+    "topicId": "keloid",
+    "reason": "Source identifies a hypertrophic scar; it is a distinct clinicopathologic lesion from a keloid."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shock-cell2.PNG",
+    "reason": "Source describes reproduction/modification from a commercial nursing textbook without an established underlying reuse license."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shock-cell2.svg",
+    "reason": "Source describes a derivative of a commercial nursing-textbook diagram. Underlying permission was not established."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brookes_slave_ship,_British_Library.jpg",
+    "reason": "Historical slave-ship layout; scurvy appears only in contextual prose, not in the image."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brookes_slave_ship,_British_Library_(cropped).jpg",
+    "reason": "Cropped duplicate historical slave-ship layout, not a pathology image."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-07-01_Marasmus_by-David-Revoy.jpg",
+    "reason": "Fantasy artwork named Marasmus, not an educational malnutrition illustration."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trans_intersex_pride_flag_XXY.svg",
+    "reason": "A pride/awareness flag containing XXY is not a medical explanatory diagram."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timeline_from_1975_showing_the_successful_development_of_therapeutic_antibodies_and_their_applications.webp",
+    "topicId": "von-willebrand-disease",
+    "reason": "Commercial timeline/market value of therapeutic antibodies is unrelated to von Willebrand disease morphology or pathogenesis."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rilzabrutinib.svg",
+    "topicId": "immune-thrombocytopenia",
+    "reason": "Drug chemical structure alone does not illustrate immune platelet destruction or clinical morphology."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plomb_dans_%C3%A9corce_arbres_dakar_air_afrique_sud2.jpg",
+    "topicId": "lead-toxicity",
+    "reason": "Environmental lead in tree bark/air, not a human pathology specimen or disease mechanism diagram."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alzheimer%27s_disease_brain_preclinical.jpg",
+    "topicId": "alzheimer-disease",
+    "reason": "Source caption explicitly calls this a normal-brain diagram; keep disease-specific and normal-versus-affected comparisons instead."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liver_Lobule_(NIH_BioArt_565).png",
+    "topicId": "hepatic-steatosis",
+    "reason": "Normal liver lobule anatomy; steatosis appears only in a cited bibliography, not in depicted tissue."
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glomerular_Filtration_Barrier.svg",
+    "topicId": "nephrotic-syndrome",
+    "reason": "Normal filtration-barrier anatomy without nephrotic injury; disease-specific native diagram and clinical images are available."
+  }
+]

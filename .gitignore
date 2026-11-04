@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env*.local
+.vercel/
+research/commons-cache/
+research/contact-sheet-*.jpg
+tests/artifacts/
+*.log
+
+.vercel
+.env*

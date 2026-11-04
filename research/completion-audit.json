@@ -1,0 +1,40 @@
+{
+  "objective": "Separate Path Deck project with broad MBBS pathology data/images and the user-requested Tissue Deck design, plus additive study components",
+  "status": "verified local completion",
+  "evidence": {
+    "folder": "D:\\Antigravity Projects\\Path Deck",
+    "catalogue": {
+      "topics": 207,
+      "systems": 19,
+      "sourceImages": 500,
+      "originalDiagrams": 25,
+      "illustratedTopics": 207,
+      "notesOnlyTopics": []
+    },
+    "design": "tests/content.test.js verifies original copied theme/particles hashes in research/tissue-design-baseline.json",
+    "studyComponents": [
+      "Compare conditions",
+      "System-filtered spotter practice",
+      "Bookmarks and progress export",
+      "Image-type filters",
+      "Source/creator/licence dialog",
+      "Recoverable explicit offline saving",
+      "Context-bound direct OpenAI tutor"
+    ],
+    "checks": {
+      "lint": "passed",
+      "productionBuild": "passed",
+      "automatedTests": "20 passed",
+      "dependencyVulnerabilities": 0,
+      "imageIntegrity": "all files decode and source checksums match",
+      "sourceCuration": "frozen 500-image catalogue; rejected associations regression-tested",
+      "liveTutor": "text, microscopy and SVG requests passed; test records removed"
+    },
+    "localHandoff": "http://127.0.0.1:5174/"
+  },
+  "limits": [
+    "No specialist diagnostic certification or every-institution SLO mapping claimed.",
+    "No physical device test; mobile viewport/pinch testing passed.",
+    "Local project only; deployment and GitHub publication remain separate user actions."
+  ]
+}

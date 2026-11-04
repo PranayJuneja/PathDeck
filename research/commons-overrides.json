@@ -1,0 +1,113 @@
+{
+  "commons-58390b1f303361d8": {
+    "author": "KGH",
+    "title": "Hodgkin lymphoma, possible mixed cellularity",
+    "description": "Histopathologic image of Hodgkin's lymphoma. Lymph node biopsy. H & E stain. It may represent a mixed cellularity type.",
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Hodgkin_lymphoma_(1)_mixed_cellulary_type.jpg",
+    "evidence": "Commons API imageinfo identifies uploader KGH at 2006-01-17T12:27:14Z. The original page revision at that same time is by KGH and declares GFDL-self. Current file license includes CC BY-SA 3.0. The caption is the original English source text, retaining subtype uncertainty.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-c0f281758f5f7767": {
+    "author": "CDC / Dr. Edwin P. Ewing, Jr.",
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Renal_cell_carcinoma,_gross_pathology_of_bisected_kidney_20G0029_lores.jpg",
+    "evidence": "The original source description explicitly credits Content Providers(s): CDC/Dr. Edwin P. Ewing, Jr. It identifies CDC PHIL image863, created1972, with no copyright restrictions. Credit recovered from source caption rather than invented.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-24f192fe8cf6b1b8": {
+    "author": "Ed Uthman, MD",
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Infiltrating_ductal_carcinoma_of_the_breast.jpg",
+    "evidence": "Original source description ends Photograph by Ed Uthman, MD. Public domain. Posted27May01. Credit recovered from source caption.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-d1bd70067221a8b3": {
+    "author": "National Cancer Institute / Dr. Lance Liotta Laboratory",
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Leukemia_(aml).jpg",
+    "evidence": "Commons source credit identifies National Cancer Institute VisualsOnline image2336 and public-domain release. Source caption identifies Dr. Lance Liotta Laboratory. The institution/lab is credited; the individual photographer is not identified by the source.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-2bc13546b083a68c": {
+    "author": "National Cancer Institute",
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Melanoma.jpg",
+    "evidence": "Commons source credit explicitly identifies National Cancer Institute, AV Number AV-8500-3850, created1985, VisualsOnline image9186. PDUSGovernment metadata confirms public-domain reuse. The institutional source is credited; the individual photographer is not identified.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-da5838660b1cd752": {
+    "topicIds": [
+      "cervical-squamous-intraepithelial-lesion"
+    ],
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Ca_in_situ,_cervix_2.jpg",
+    "evidence": "Original caption identifies high-grade cervical dysplasia/carcinoma in situ. It is a preinvasive squamous intraepithelial lesion, not the invasive-carcinoma topic.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-d58f8aaaab722019": {
+    "topicIds": [
+      "hydatidiform-mole"
+    ],
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Partial_Hydatidiform_Mole_3_(570796738).jpg",
+    "evidence": "Original caption explicitly confirms partial hydatidiform mole with triploidy and positive p57. Hydropic placental villi are not generic reversible cellular swelling.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-ad42bedbc548dcc8": {
+    "topicIds": [
+      "hydatidiform-mole"
+    ],
+    "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Partial_Hydatidiform_Mole_(134249052).jpg",
+    "evidence": "Original caption establishes triploid partial hydatidiform mole. Do not use this placental-villus lesion as generic reversible cell injury.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-57d37827d3930936": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-f0967cc0271e15d1": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-9cd078e25615ab82": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-947abf2012139091": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-621043d36d680de7": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-d9083aa33374eb71": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-a6de81908afa5c1a": {
+    "kind": "radiology",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-76d246ec74438b68": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-06cbfaba6d97d496": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-bc7f94e8cb6a076a": {
+    "kind": "microscopy",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  },
+  "commons-4ed4b601ca20e6d5": {
+    "kind": "radiology",
+    "kindEvidence": "Modality confirmed by the acquired image in the complete contact-sheet read-through, not by secondary caption keywords.",
+    "verifiedAt": "2026-11-04"
+  }
+}

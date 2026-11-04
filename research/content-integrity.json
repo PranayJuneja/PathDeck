@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-04T09:53:49.397Z",
+  "topics": 207,
+  "systems": {
+    "General pathology": 38,
+    "Cardiovascular": 10,
+    "Respiratory": 13,
+    "Infections": 8,
+    "Bone & soft tissue": 7,
+    "Gastrointestinal": 12,
+    "Hepatobiliary & pancreas": 10,
+    "Renal & urinary": 20,
+    "Blood & marrow": 21,
+    "Lymphoid pathology": 4,
+    "Male reproductive": 5,
+    "Female reproductive": 11,
+    "Breast": 6,
+    "Endocrine": 13,
+    "Skin": 5,
+    "Central nervous system": 7,
+    "Immune pathology": 4,
+    "Genetic & developmental": 6,
+    "Nutrition & environmental": 7
+  },
+  "specimenImages": 500,
+  "originalDiagrams": 25,
+  "totalImages": 525,
+  "mediaByKind": {
+    "microscopy": 360,
+    "gross": 81,
+    "diagram": 78,
+    "radiology": 4,
+    "clinical": 2
+  },
+  "illustratedTopics": 207,
+  "notesOnlyTopics": [],
+  "imageBytes": 142775934,
+  "imageMiB": 136.2,
+  "integrity": "All images decode, linked topic IDs exist, checksums match, reusable licence metadata is present.",
+  "limits": "Technical integrity and recorded licensing do not constitute specialist medical review or a guarantee about a source uploader’s rights."
+}

@@ -1,0 +1,11 @@
+{
+  "source": "Existing local Tissue Deck frontend",
+  "purpose": "Preserve the user-requested Tissue Deck visual design while adding independent study tools",
+  "files": {
+    "App.module.css": "5804e966c58fc4b542685e0def3477600d1ae7c011aa0560251a47b3cff6d10c",
+    "styles/global.css": "cf578e8e493d2572da17b15233e73b04525e5045f25186ca67fb5d956d9aa1d7",
+    "components/TheoryPanel.module.css": "07ce5a18e3d43f0263d536c6e61cbc89572c6bf6a0b89b47f2f8b6b552b1ac3d",
+    "components/ChatBot.module.css": "c7c06bf57f4dd17611b6ab516112a2fbd8385c8cda6c12aef9f9c2d22a545035",
+    "components/Particles.jsx": "24ed73dd9dfdbd3b5b38044b1969dc93ae7ee2a01a901f8595eb9ce6d8757438"
+  }
+}

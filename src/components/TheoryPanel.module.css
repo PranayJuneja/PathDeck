@@ -1,0 +1,206 @@
+.panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    height: 100%;
+    overflow: hidden;
+    color: var(--color-text);
+}
+
+.content {
+    flex: 1;
+    padding: var(--space-md);
+    overflow-y: auto;
+    padding-bottom: 90px;
+    /* Space for chatbot */
+}
+
+.emptyState {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--space-sm);
+    margin-bottom: var(--space-md);
+    text-align: left;
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.title {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.description {
+    color: var(--color-text-muted);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.section {
+    margin-bottom: var(--space-lg);
+    text-align: left;
+}
+
+.section h3 {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-xs);
+}
+
+.featureList {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: var(--color-text-muted);
+}
+
+.featureList li {
+    padding: var(--space-xs) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.examTipBoard {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    /* Removed flex to allow text to wrap under icon/title */
+}
+
+.examTipHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.tipIcon {
+    font-size: 1.5rem;
+}
+
+.gridSection {
+    display: grid;
+    /* Changed to 1 column to make them rows as requested */
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    text-align: left;
+    margin-bottom: var(--space-lg);
+}
+
+.gridSection ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    color: var(--color-text-muted);
+}
+
+.gridSection h3 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ========= RESPONSIVE STYLES ========= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .panel {
+        padding: var(--space-sm);
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .gridSection {
+        gap: var(--space-sm);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .panel {
+        padding: var(--space-sm);
+    }
+
+    .header {
+        padding-bottom: var(--space-xs);
+        margin-bottom: var(--space-sm);
+    }
+
+    .title {
+        font-size: 1.2rem;
+        margin: 0.3rem 0;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+
+    .section {
+        margin-bottom: var(--space-md);
+    }
+
+    .section h3 {
+        font-size: 0.9rem;
+    }
+
+    /* Stack grid on mobile */
+    .gridSection {
+        grid-template-columns: 1fr;
+        gap: var(--space-sm);
+    }
+
+    .gridSection h3 {
+        font-size: 0.85rem;
+    }
+
+    .gridSection ul {
+        padding-left: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .examTipBoard {
+        padding: var(--space-sm);
+        gap: var(--space-xs);
+    }
+
+    .tipIcon {
+        font-size: 1.2rem;
+    }
+
+    .featureList li {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .category {
+        font-size: 0.7rem;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+}

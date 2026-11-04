@@ -1,0 +1,842 @@
+[
+  {
+    "id": "cell-injury-outcomes",
+    "title": "Cell injury: recover or progress",
+    "path": "/diagrams/cell-injury-outcomes.svg",
+    "topicIds": [
+      "coagulative-necrosis",
+      "liquefactive-necrosis",
+      "fat-necrosis",
+      "apoptosis",
+      "myocardial-infarction",
+      "infarction",
+      "reversible-cell-injury"
+    ],
+    "keywords": [
+      "cell injury",
+      "reversible",
+      "irreversible",
+      "necrosis",
+      "ATP",
+      "apoptosis"
+    ],
+    "description": "Flowchart of reversible injury, recovery and irreversible injury with necrosis; apoptosis is shown as a distinct regulated death programme.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Cellular injury",
+        "url": "https://webpath.med.utah.edu/CINJHTML/CINJIDX.html"
+      },
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Tissue injury and repair",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging"
+      }
+    ]
+  },
+  {
+    "id": "necrosis-patterns",
+    "title": "Recognising patterns of necrosis",
+    "path": "/diagrams/necrosis-patterns.svg",
+    "topicIds": [
+      "coagulative-necrosis",
+      "liquefactive-necrosis",
+      "caseous-necrosis",
+      "fat-necrosis",
+      "fibrinoid-necrosis",
+      "tuberculosis",
+      "infarction"
+    ],
+    "keywords": [
+      "necrosis",
+      "infarction",
+      "caseous",
+      "coagulative",
+      "liquefactive",
+      "fat necrosis",
+      "gangrene"
+    ],
+    "description": "Six pattern summaries distinguish coagulative, liquefactive, caseous, fat and fibrinoid necrosis, and explain gangrene as a clinical term.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Cellular injury",
+        "url": "https://webpath.med.utah.edu/CINJHTML/CINJIDX.html"
+      },
+      {
+        "title": "University of Utah WebPath — Inflammation",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFLIDX.html"
+      }
+    ]
+  },
+  {
+    "id": "apoptosis-pathways",
+    "title": "Two routes into apoptosis",
+    "path": "/diagrams/apoptosis-pathways.svg",
+    "topicIds": [
+      "apoptosis"
+    ],
+    "keywords": [
+      "apoptosis",
+      "intrinsic",
+      "extrinsic",
+      "caspase",
+      "Fas",
+      "cytochrome"
+    ],
+    "description": "Intrinsic mitochondrial and extrinsic death-receptor pathways converge on executioner caspases; apoptotic bodies are removed by phagocytes.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Cellular injury",
+        "url": "https://webpath.med.utah.edu/CINJHTML/CINJIDX.html"
+      },
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Tissue injury and repair",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging"
+      },
+      {
+        "title": "Libre Pathology — Apoptosis morphology",
+        "url": "https://librepathology.org/wiki/Apoptosis"
+      }
+    ]
+  },
+  {
+    "id": "leukocyte-recruitment",
+    "title": "Leukocytes leave the circulation",
+    "path": "/diagrams/leukocyte-recruitment.svg",
+    "topicIds": [
+      "acute-appendicitis",
+      "lobar-pneumonia",
+      "bronchopneumonia"
+    ],
+    "keywords": [
+      "acute inflammation",
+      "neutrophil",
+      "rolling",
+      "adhesion",
+      "diapedesis",
+      "chemotaxis"
+    ],
+    "description": "A venule cross-section illustrates rolling, firm adhesion, transendothelial migration and chemotaxis into tissue.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Inflammation",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFLIDX.html"
+      },
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Tissue injury and repair",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging"
+      }
+    ]
+  },
+  {
+    "id": "granuloma-architecture",
+    "title": "What makes a granuloma?",
+    "path": "/diagrams/granuloma-architecture.svg",
+    "topicIds": [
+      "tuberculosis",
+      "sarcoidosis",
+      "foreign-body-granuloma",
+      "crohn-disease",
+      "type-iv-hypersensitivity",
+      "chronic-inflammation"
+    ],
+    "keywords": [
+      "granuloma",
+      "granulomatous",
+      "caseation",
+      "tuberculosis",
+      "sarcoidosis",
+      "giant cell"
+    ],
+    "description": "Concentric schematic of a granuloma with epithelioid macrophages, surrounding lymphocytes, a multinucleated giant cell and an optional necrotic centre.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Inflammation",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFLIDX.html"
+      },
+      {
+        "title": "University of Utah WebPath — Langhans giant cells",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFL050.html"
+      }
+    ]
+  },
+  {
+    "id": "virchow-triad",
+    "title": "Virchow’s triad",
+    "path": "/diagrams/virchow-triad.svg",
+    "topicIds": [
+      "thrombosis",
+      "pulmonary-thromboembolism",
+      "atherosclerosis",
+      "infarction"
+    ],
+    "keywords": [
+      "Virchow",
+      "triad",
+      "thrombosis",
+      "hypercoagulability",
+      "stasis",
+      "embolism"
+    ],
+    "description": "Triangle links endothelial injury, abnormal blood flow and hypercoagulability to increased thrombus risk.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Atherosclerosis and thrombosis",
+        "url": "https://webpath.med.utah.edu/ATHHTML/ATHIDX.html"
+      }
+    ]
+  },
+  {
+    "id": "edema-mechanisms",
+    "title": "Why fluid accumulates in tissues",
+    "path": "/diagrams/edema-mechanisms.svg",
+    "topicIds": [
+      "dilated-cardiomyopathy",
+      "minimal-change-disease",
+      "cirrhosis",
+      "edema",
+      "transfusion-associated-circulatory-overload"
+    ],
+    "keywords": [
+      "edema",
+      "hydrostatic",
+      "oncotic",
+      "lymphatic",
+      "Starling",
+      "transudate",
+      "exudate"
+    ],
+    "description": "Capillary hydrostatic and oncotic influences are shown with lymphatic drainage and common mechanisms of edema.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Capillary exchange",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-3-capillary-exchange"
+      },
+      {
+        "title": "University of Utah WebPath — Inflammation",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFLIDX.html"
+      },
+      {
+        "title": "Libre Pathology — Nephrotic syndrome",
+        "url": "https://librepathology.org/wiki/Nephrotic_syndrome"
+      },
+      {
+        "title": "Lifeblood: transfusion-associated circulatory overload",
+        "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/TACO"
+      }
+    ]
+  },
+  {
+    "id": "wound-healing-phases",
+    "title": "Wound healing is an overlap, not a switch",
+    "path": "/diagrams/wound-healing-phases.svg",
+    "topicIds": [
+      "granulation-tissue",
+      "myocardial-infarction",
+      "wound-healing",
+      "tissue-regeneration"
+    ],
+    "keywords": [
+      "wound",
+      "healing",
+      "repair",
+      "granulation tissue",
+      "scar",
+      "angiogenesis"
+    ],
+    "description": "A staggered timeline shows overlapping phases of wound repair and their principal cellular and structural events.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Tissue injury and repair",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging"
+      },
+      {
+        "title": "University of Utah WebPath — Inflammation",
+        "url": "https://webpath.med.utah.edu/INFLHTML/INFLIDX.html"
+      }
+    ]
+  },
+  {
+    "id": "epithelial-invasion",
+    "title": "The boundary that defines invasion",
+    "path": "/diagrams/epithelial-invasion.svg",
+    "topicIds": [
+      "epithelial-dysplasia",
+      "esophageal-squamous-cell-carcinoma",
+      "lung-squamous-cell-carcinoma",
+      "lung-adenocarcinoma",
+      "colorectal-adenocarcinoma",
+      "gastric-adenocarcinoma",
+      "benign-neoplasia",
+      "malignant-neoplasia"
+    ],
+    "keywords": [
+      "neoplasia",
+      "benign",
+      "malignant",
+      "invasion",
+      "carcinoma",
+      "basement membrane",
+      "dysplasia"
+    ],
+    "description": "Comparison of an epithelial proliferation confined above an intact basement membrane with malignant cells penetrating into underlying stroma.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Tissue injury and repair",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging"
+      },
+      {
+        "title": "National Cancer Institute — Tumor grade",
+        "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+      }
+    ]
+  },
+  {
+    "id": "nephritic-nephrotic",
+    "title": "Nephritic and nephrotic are clinical patterns",
+    "path": "/diagrams/nephritic-nephrotic.svg",
+    "topicIds": [
+      "minimal-change-disease",
+      "membranous-nephropathy",
+      "iga-nephropathy",
+      "focal-segmental-glomerulosclerosis",
+      "infection-related-glomerulonephritis",
+      "nephritic-syndrome",
+      "nephrotic-syndrome"
+    ],
+    "keywords": [
+      "nephritic",
+      "nephrotic",
+      "proteinuria",
+      "hematuria",
+      "glomerulonephritis",
+      "kidney"
+    ],
+    "description": "Side-by-side nephritic and nephrotic syndrome summaries emphasise inflammatory hematuria versus heavy protein leakage and their common clinical consequences.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "Libre Pathology — Nephrotic syndrome",
+        "url": "https://librepathology.org/wiki/Nephrotic_syndrome"
+      },
+      {
+        "title": "Libre Pathology — Medical kidney disease and nephritic syndrome",
+        "url": "https://librepathology.org/wiki/Nephritic_syndrome"
+      }
+    ]
+  },
+  {
+    "id": "anemia-smear-patterns",
+    "title": "Two useful peripheral-smear patterns",
+    "path": "/diagrams/anemia-smear-patterns.svg",
+    "topicIds": [
+      "iron-deficiency-anemia",
+      "megaloblastic-anemia"
+    ],
+    "keywords": [
+      "anemia",
+      "anaemia",
+      "iron deficiency",
+      "megaloblastic",
+      "microcytic",
+      "macrocytic",
+      "B12",
+      "folate"
+    ],
+    "description": "Stylised comparison of microcytic hypochromic red cells in iron deficiency and macro-ovalocytes with a hypersegmented neutrophil in megaloblastic anemia.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah WebPath — Hematopathology",
+        "url": "https://webpath.med.utah.edu/HEMEHTML/HEMEIDX.html"
+      },
+      {
+        "title": "University of Utah WebPath — Microcytic hypochromic anemia",
+        "url": "https://webpath.med.utah.edu/HEMEHTML/HEME008.html"
+      }
+    ]
+  },
+  {
+    "id": "tumour-grade-stage",
+    "title": "Grade and stage answer different questions",
+    "path": "/diagrams/tumour-grade-stage.svg",
+    "topicIds": [
+      "epithelial-dysplasia",
+      "lung-adenocarcinoma",
+      "lung-squamous-cell-carcinoma",
+      "colorectal-adenocarcinoma",
+      "gastric-adenocarcinoma",
+      "esophageal-squamous-cell-carcinoma",
+      "tumour-grading",
+      "tumour-staging"
+    ],
+    "keywords": [
+      "grade",
+      "stage",
+      "TNM",
+      "differentiation",
+      "neoplasia",
+      "cancer"
+    ],
+    "description": "Tumour grade is illustrated as differentiation under the microscope; stage is explained through primary tumour, regional lymph nodes and distant metastasis.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "National Cancer Institute — Tumor grade",
+        "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+      },
+      {
+        "title": "National Cancer Institute — Cancer staging",
+        "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging"
+      }
+    ]
+  },
+  {
+    "id": "hypersensitivity-mechanisms",
+    "title": "Four mechanisms of hypersensitivity",
+    "path": "/diagrams/hypersensitivity-mechanisms.svg",
+    "topicIds": [
+      "type-i-hypersensitivity",
+      "type-ii-hypersensitivity",
+      "type-iii-hypersensitivity",
+      "type-iv-hypersensitivity",
+      "autoimmune-hemolytic-anemia",
+      "graves-disease",
+      "pemphigus-vulgaris"
+    ],
+    "keywords": [
+      "hypersensitivity",
+      "IgE",
+      "antibody",
+      "immune complex",
+      "T cell"
+    ],
+    "description": "Four distinct mechanisms show IgE-associated mast-cell activation, target-directed antibody effects, immune-complex deposition and T-cell-mediated injury.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "OpenStax Anatomy and Physiology 2e — Overactive immune responses",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-6-diseases-associated-with-depressed-or-overactive-immune-responses"
+      }
+    ]
+  },
+  {
+    "id": "inheritance-patterns",
+    "title": "Reading three inheritance patterns",
+    "path": "/diagrams/inheritance-patterns.svg",
+    "topicIds": [
+      "autosomal-dominant-polycystic-kidney-disease",
+      "familial-hypercholesterolemia",
+      "cystic-fibrosis",
+      "sickle-cell-disease",
+      "thalassemia",
+      "g6pd-deficiency",
+      "hemophilia"
+    ],
+    "keywords": [
+      "inheritance",
+      "autosomal dominant",
+      "autosomal recessive",
+      "X linked",
+      "Mendelian"
+    ],
+    "description": "Illustrative Punnett squares compare autosomal dominant, autosomal recessive and X-linked recessive transmission.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "MedlinePlus Genetics — Inheritance patterns",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ]
+  },
+  {
+    "id": "chromosome-nondisjunction",
+    "title": "When chromosome segregation fails",
+    "path": "/diagrams/chromosome-nondisjunction.svg",
+    "topicIds": [
+      "down-syndrome",
+      "turner-syndrome",
+      "klinefelter-syndrome"
+    ],
+    "keywords": [
+      "nondisjunction",
+      "aneuploidy",
+      "trisomy",
+      "monosomy",
+      "chromosome"
+    ],
+    "description": "A simplified segregation diagram contrasts balanced gametes with gametes that gain or lose a chromosome after nondisjunction, which can produce aneuploidy following fertilisation.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "MedlinePlus Genetics — Chromosomal disorders and inheritance",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/chromosomalinheritance/"
+      },
+      {
+        "title": "MedlinePlus Genetics — Changes in chromosome number",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/chromosomalconditions/"
+      }
+    ]
+  },
+  {
+    "id": "vitamin-d-mineralisation",
+    "title": "Vitamin D and bone mineralisation",
+    "path": "/diagrams/vitamin-d-mineralisation.svg",
+    "topicIds": [
+      "rickets-osteomalacia"
+    ],
+    "keywords": [
+      "vitamin D",
+      "rickets",
+      "osteomalacia",
+      "calcitriol",
+      "mineralisation"
+    ],
+    "description": "Vitamin D activation in liver and kidney supports intestinal mineral absorption; a simplified osteoid comparison explains inadequate mineralisation in rickets and osteomalacia.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NIH Office of Dietary Supplements — Vitamin D health-professional fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      }
+    ]
+  },
+  {
+    "id": "multistep-carcinogenesis",
+    "title": "Cancer evolves through accumulated changes",
+    "path": "/diagrams/multistep-carcinogenesis.svg",
+    "topicIds": [
+      "carcinogenesis",
+      "malignant-neoplasia",
+      "epithelial-dysplasia",
+      "colorectal-adenoma",
+      "colorectal-adenocarcinoma",
+      "tumour-staging"
+    ],
+    "keywords": [
+      "carcinogenesis",
+      "clonal evolution",
+      "neoplasia",
+      "oncogene",
+      "tumour suppressor",
+      "heterogeneity"
+    ],
+    "description": "Accumulated genetic or regulatory alterations change growth control, permit clonal expansion and generate tumour heterogeneity; an epithelial example shows later invasive growth.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "National Cancer Institute — The genetics of cancer",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics"
+      }
+    ]
+  },
+  {
+    "id": "ldl-receptor-fh",
+    "title": "Familial hypercholesterolemia: LDL clearance",
+    "path": "/diagrams/ldl-receptor-fh.svg",
+    "topicIds": [
+      "familial-hypercholesterolemia",
+      "atherosclerosis"
+    ],
+    "keywords": [
+      "familial hypercholesterolemia",
+      "LDLR",
+      "APOB",
+      "PCSK9",
+      "LDL"
+    ],
+    "description": "LDL binding, hepatocyte receptor uptake and receptor recycling are shown above three gene-specific disturbances: LDLR loss of function, FH-associated APOB binding defects and PCSK9 gain of function.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "MedlinePlus Genetics — Familial hypercholesterolemia",
+        "url": "https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia/"
+      },
+      {
+        "title": "MedlinePlus Genetics — LDLR gene",
+        "url": "https://medlineplus.gov/genetics/gene/ldlr/"
+      },
+      {
+        "title": "MedlinePlus Genetics — APOB gene",
+        "url": "https://medlineplus.gov/genetics/gene/apob/"
+      },
+      {
+        "title": "MedlinePlus Genetics — PCSK9 gene",
+        "url": "https://medlineplus.gov/genetics/gene/pcsk9/"
+      }
+    ]
+  },
+  {
+    "id": "obesity-insulin-resistance",
+    "title": "From adipose dysfunction to type 2 diabetes",
+    "path": "/diagrams/obesity-insulin-resistance.svg",
+    "topicIds": [
+      "obesity",
+      "diabetes-mellitus-type-2"
+    ],
+    "keywords": [
+      "obesity",
+      "insulin resistance",
+      "beta cell",
+      "type 2 diabetes"
+    ],
+    "description": "A mechanism schematic links adipose dysfunction with insulin resistance, compensatory insulin secretion and later beta-cell dysfunction.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NIDDK: insulin resistance",
+        "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
+      },
+      {
+        "title": "NIDDK: type 2 diabetes",
+        "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes"
+      },
+      {
+        "title": "NHLBI: metabolic syndrome causes",
+        "url": "https://www.nhlbi.nih.gov/health/metabolic-syndrome/causes"
+      }
+    ]
+  },
+  {
+    "id": "chronic-bronchitis-wall",
+    "title": "Chronic bronchitis: mucus glands in the airway wall",
+    "path": "/diagrams/chronic-bronchitis-wall.svg",
+    "topicIds": [
+      "chronic-bronchitis"
+    ],
+    "keywords": [
+      "chronic bronchitis",
+      "Reid index",
+      "mucous gland",
+      "bronchus"
+    ],
+    "description": "A large cartilaginous bronchial wall shows excess luminal mucus and enlarged submucosal mucous glands. Reid index measurement boundaries are labeled.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "University of Utah: chronic bronchitis",
+        "url": "https://webpath.med.utah.edu/LUNGHTML/LUNG055.html"
+      },
+      {
+        "title": "Reid: bronchial mucous gland layer (1960)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14437095/"
+      },
+      {
+        "title": "Reid: Mucus in Chronic Bronchitis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370700/"
+      }
+    ]
+  },
+  {
+    "id": "vitamin-a-vision-epithelium",
+    "title": "Vitamin A deficiency: vision and epithelial injury",
+    "path": "/diagrams/vitamin-a-vision-epithelium.svg",
+    "topicIds": [
+      "vitamin-a-deficiency"
+    ],
+    "keywords": [
+      "vitamin A",
+      "night blindness",
+      "xerophthalmia",
+      "epithelial differentiation"
+    ],
+    "description": "Two parallel mechanisms connect vitamin A deficiency with impaired retinal function and loss of normal ocular epithelial maintenance.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NIH ODS: Vitamin A and Carotenoids",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      }
+    ]
+  },
+  {
+    "id": "aplastic-anemia-marrow",
+    "title": "Aplastic anemia: marrow failure across blood cell lines",
+    "path": "/diagrams/aplastic-anemia-marrow.svg",
+    "topicIds": [
+      "aplastic-anemia"
+    ],
+    "keywords": [
+      "aplastic anemia",
+      "hypocellular marrow",
+      "pancytopenia",
+      "stem cell injury"
+    ],
+    "description": "Illustrative cellular and hypocellular fat-rich marrow fields show loss of hematopoietic cells and reduced production across blood cell lineages.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NHLBI: aplastic anemia",
+        "url": "https://www.nhlbi.nih.gov/health/anemia/aplastic-anemia"
+      },
+      {
+        "title": "Merck Manual Professional: aplastic anemia",
+        "url": "https://www.merckmanuals.com/professional/hematology/anemias-caused-by-deficient-erythropoiesis/aplastic-anemia"
+      }
+    ]
+  },
+  {
+    "id": "scurvy-collagen",
+    "title": "Scurvy: vitamin C and connective tissue weakness",
+    "path": "/diagrams/scurvy-collagen.svg",
+    "topicIds": [
+      "scurvy"
+    ],
+    "keywords": [
+      "scurvy"
+    ],
+    "description": "Vitamin C deficiency impairs collagen hydroxylation and connective tissue support, contributing to capillary fragility, gingival disease and impaired wound healing.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NIH ODS: vitamin C",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      },
+      {
+        "title": "Ascorbate requirement for procollagen hydroxylation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1720597/"
+      },
+      {
+        "title": "UMass: protein structure teaching notes",
+        "url": "https://www.umassmed.edu/globalassets/office-of-undergraduate-medical-education-media/documents/protein_structure_notes_2016.pdf"
+      }
+    ]
+  },
+  {
+    "id": "itp-platelet-clearance",
+    "title": "Immune thrombocytopenia: loss of circulating platelets",
+    "path": "/diagrams/itp-platelet-clearance.svg",
+    "topicIds": [
+      "immune-thrombocytopenia"
+    ],
+    "keywords": [
+      "immune-thrombocytopenia"
+    ],
+    "description": "An illustrative ITP mechanism shows antibody-coated platelets cleared by splenic macrophages and impaired megakaryocyte production contributing to low platelet counts.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "NHLBI: immune thrombocytopenia",
+        "url": "https://www.nhlbi.nih.gov/health/immune-thrombocytopenia"
+      },
+      {
+        "title": "ASH: spleen and platelet clearance",
+        "url": "https://doi.org/10.1182/blood-2017-09-742353"
+      },
+      {
+        "title": "ASH: international ITP consensus",
+        "url": "https://doi.org/10.1182/bloodadvances.2019000812"
+      }
+    ]
+  },
+  {
+    "id": "circulatory-shock",
+    "title": "Circulatory shock: inadequate tissue perfusion",
+    "path": "/diagrams/circulatory-shock.svg",
+    "topicIds": [
+      "shock"
+    ],
+    "keywords": [
+      "circulatory shock",
+      "perfusion",
+      "hypovolemic",
+      "cardiogenic",
+      "obstructive",
+      "distributive"
+    ],
+    "description": "Four mechanisms of shock converge on insufficient tissue oxygenation and cellular dysfunction. Blood pressure alone does not define shock.",
+    "author": "Path Deck",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": null,
+    "references": [
+      {
+        "title": "Merck Manual Professional: Shock",
+        "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock"
+      },
+      {
+        "title": "Vanderbilt Internal Medicine: definition of shock",
+        "url": "https://vimbook.vumc.org/critical-care/definition-shock"
+      }
+    ]
+  }
+]

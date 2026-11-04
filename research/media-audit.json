@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-11-04T01:32:13.349Z",
+  "mediaCount": 500,
+  "topicCount": 207,
+  "topicsWithMedia": 192,
+  "missingTopics": [
+    {
+      "id": "aplastic-anemia",
+      "name": "Aplastic anemia"
+    },
+    {
+      "id": "immune-thrombocytopenia",
+      "name": "Immune thrombocytopenia"
+    },
+    {
+      "id": "reversible-cell-injury",
+      "name": "Reversible cell injury"
+    },
+    {
+      "id": "shock",
+      "name": "Shock"
+    },
+    {
+      "id": "infarction",
+      "name": "Infarction"
+    },
+    {
+      "id": "turner-syndrome",
+      "name": "Turner syndrome"
+    },
+    {
+      "id": "familial-hypercholesterolemia",
+      "name": "Familial hypercholesterolemia"
+    },
+    {
+      "id": "vitamin-a-deficiency",
+      "name": "Vitamin A deficiency"
+    },
+    {
+      "id": "rickets-osteomalacia",
+      "name": "Rickets and osteomalacia"
+    },
+    {
+      "id": "scurvy",
+      "name": "Scurvy"
+    },
+    {
+      "id": "chronic-bronchitis",
+      "name": "Chronic bronchitis"
+    },
+    {
+      "id": "hemophilia",
+      "name": "Hemophilia A and B"
+    },
+    {
+      "id": "transfusion-associated-circulatory-overload",
+      "name": "Transfusion-associated circulatory overload"
+    },
+    {
+      "id": "obesity",
+      "name": "Obesity and adipose-tissue dysfunction"
+    },
+    {
+      "id": "diabetes-mellitus-type-2",
+      "name": "Type 2 diabetes mellitus"
+    }
+  ],
+  "licenses": {
+    "CC BY-SA 4.0": 72,
+    "CC BY-SA 2.0": 57,
+    "CC BY 4.0": 38,
+    "CC BY-SA 3.0": 220,
+    "CC BY 3.0": 9,
+    "Public domain": 31,
+    "CC0": 26,
+    "CC BY 2.0": 43,
+    "CC BY 2.5": 3,
+    "CC BY-SA 2.5": 1
+  },
+  "kinds": {
+    "microscopy": 360,
+    "gross": 81,
+    "diagram": 53,
+    "radiology": 4,
+    "clinical": 2
+  },
+  "errors": [],
+  "excludedByPolicy": [],
+  "excludedAssociations": [],
+  "integrityFailures": [],
+  "prunedFiles": 2,
+  "totalBytes": 142596530,
+  "policy": "Only documented CC0, public domain, CC BY or CC BY-SA. Third-party reprints and AI-generated medical media are excluded. License and source metadata are retained. Automated matching needs visual review."
+}

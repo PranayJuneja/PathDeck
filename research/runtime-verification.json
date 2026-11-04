@@ -1,0 +1,57 @@
+{
+  "verifiedAt": "2026-11-04T01:40:23.701Z",
+  "localProject": "D:/Antigravity Projects/Path Deck",
+  "localUrl": "http://127.0.0.1:5174/",
+  "runtime": "Node 24 LTS; tested via node@24",
+  "liveTutorChecks": [
+    {
+      "input": "text only",
+      "status": 200,
+      "remaining": 99
+    },
+    {
+      "input": "microscopy image",
+      "status": 200,
+      "remaining": 98
+    },
+    {
+      "input": "original SVG diagram rasterized server-side",
+      "status": 200,
+      "remaining": 97
+    }
+  ],
+  "quotaNamespace": "path_deck_usage",
+  "chatNamespace": "path_deck_chat_logs",
+  "temporaryAccountRemoved": true,
+  "testChatRecordsRemoved": 3,
+  "serverSecretsInClientBundle": false,
+  "responsiveWidthsWithoutHorizontalOverflow": [
+    320,
+    390,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "verificationLimits": [
+    "Google sign-in entrypoint and temporary-token API flows were tested; no real person’s account login or physical-device acceptance was performed.",
+    "No specialist review of every medical assertion or source image is claimed.",
+    "Path Deck has not been deployed or pushed to GitHub."
+  ],
+  "localServerMode": "Production preview with local API adapter",
+  "finalAutomatedTests": 20,
+  "automatedTestsPassed": 20,
+  "lint": "passed",
+  "productionBuild": "passed",
+  "dependencyAuditVulnerabilities": 0,
+  "catalog": {
+    "topics": 207,
+    "systems": 19,
+    "sourceImages": 500,
+    "originalDiagrams": 25,
+    "illustratedTopics": 207,
+    "imageMiB": 136.2
+  },
+  "googleSignInPopupVerified": true,
+  "loopbackDomainAuthorized": true
+}

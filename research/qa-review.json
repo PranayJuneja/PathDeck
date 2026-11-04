@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-04T01:32:49.050Z",
+  "status": "frozen",
+  "scope": "Bounded source-caption, provenance and contact-sheet sanity QA; not specialist diagnostic certification.",
+  "snapshot": {
+    "commonsImages": 500,
+    "physicalWebpFiles": 500,
+    "topics": 207,
+    "topicsWithCommonsMedia": 192,
+    "bytes": 142596530,
+    "licenses": {
+      "CC BY-SA 4.0": 72,
+      "CC BY-SA 2.0": 57,
+      "CC BY 4.0": 38,
+      "CC BY-SA 3.0": 220,
+      "CC BY 3.0": 9,
+      "Public domain": 31,
+      "CC0": 26,
+      "CC BY 2.0": 43,
+      "CC BY 2.5": 3,
+      "CC BY-SA 2.5": 1
+    },
+    "kinds": {
+      "microscopy": 360,
+      "gross": 81,
+      "diagram": 53,
+      "radiology": 4,
+      "clinical": 2
+    }
+  },
+  "checks": {
+    "all17PrepruneContactSheetPagesViewed": true,
+    "allFinalFilesHashBytesDimensionsAndTopicIdsValidated": true,
+    "unknownAuthorRecords": [],
+    "blankCaptionRecords": [],
+    "unreferencedPhysicalFiles": [],
+    "missingPhysicalFiles": [],
+    "auditErrors": [],
+    "integrityFailures": []
+  },
+  "curation": {
+    "removedFromPrior524Snapshot": 24,
+    "sourceRejectionRules": "research/commons-rejections.json",
+    "confirmedMetadataAndAssociationOverrides": "research/commons-overrides.json",
+    "rules": "Excluded nonmedical artwork/flags/ships/market figures, nonhuman studies, normal anatomy falsely matched through bibliography, ambiguous third-party textbook derivatives, wrong organs/entities/subtypes, and title-only contextual matches. Correct source panel descriptions retained for legitimate mixed research figures."
+  },
+  "commonsOnlyMissingTopicIds": [
+    "aplastic-anemia",
+    "immune-thrombocytopenia",
+    "reversible-cell-injury",
+    "shock",
+    "infarction",
+    "turner-syndrome",
+    "familial-hypercholesterolemia",
+    "vitamin-a-deficiency",
+    "rickets-osteomalacia",
+    "scurvy",
+    "chronic-bronchitis",
+    "hemophilia",
+    "transfusion-associated-circulatory-overload",
+    "obesity",
+    "diabetes-mellitus-type-2"
+  ],
+  "limits": [
+    "Contact sheets were inspected as thumbnails, with source captions checked for suspicious matches; not every image was reviewed at diagnostic resolution.",
+    "No independent pathologist or medical educator has certified this collection or its disease labels. reviewed:false deliberately remains on source records.",
+    "Rights are grounded in individual Commons file metadata and recorded source evidence; public-domain/CC claims are not an independent legal opinion.",
+    "Research composites may include normal or other-disease panels; original captions identify the relevant panels and should remain visible.",
+    "Clinical diagnoses, magnifications and stains are source-reported, not independently verified.",
+    "Native explanatory SVG diagrams are maintained separately; Commons-only gaps do not by themselves imply total atlas gaps."
+  ]
+}

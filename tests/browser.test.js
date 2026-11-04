@@ -1,0 +1,125 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { createServer } from 'node:http';
+import { readFileSync, statSync, mkdirSync } from 'node:fs';
+import { resolve, extname, sep } from 'node:path';
+import puppeteer from 'puppeteer';
+
+test('Tissue Deck design, atlas controls, new study tools, mobile gestures and offline reload', { timeout: 90000 }, async () => {
+    const root = resolve('dist');
+    let failOncePath = null;
+    const server = createServer((request, response) => {
+        if (failOncePath && new URL(request.url, 'http://localhost').pathname === failOncePath) { failOncePath = null; response.writeHead(503).end('Temporary image failure'); return; }
+        let path = resolve(root, `.${decodeURIComponent(new URL(request.url, 'http://localhost').pathname)}`);
+        if (path !== root && !path.startsWith(root + sep)) { response.writeHead(403).end(); return; }
+        try { if (statSync(path).isDirectory()) path = resolve(path, 'index.html'); } catch { response.writeHead(404).end(); return; }
+        const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png', '.woff2': 'font/woff2', '.woff': 'font/woff', '.webmanifest': 'application/manifest+json' };
+        response.setHeader('Content-Type', mime[extname(path)] || 'application/octet-stream'); response.end(readFileSync(path));
+    });
+    await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+    const origin = `http://127.0.0.1:${server.address().port}`;
+    const browser = await puppeteer.launch({ headless: true });
+    mkdirSync('tests/artifacts', { recursive: true });
+    try {
+        const page = await browser.newPage(); const errors = [];
+        page.on('pageerror', error => errors.push(error.message));
+        await page.setViewport({ width: 1440, height: 1000 });
+        await page.goto(origin, { waitUntil: 'networkidle0' });
+        await page.waitForFunction(() => document.querySelector('img[alt="Coagulative necrosis"]')?.naturalWidth > 0);
+        assert.equal(await page.$eval('body', element => getComputedStyle(element).backgroundColor), 'rgb(28, 27, 31)');
+        assert.equal(await page.$eval('h1', element => element.textContent.includes('Path Deck')), true);
+        await page.click('button[title="Next Slide"]');
+        await page.click('button[title="Zoom In"]');
+        assert.match(await page.$eval('img[alt="Coagulative necrosis"]', image => image.parentElement.style.transform), /scale\(1\.5\)/);
+        await page.click('button[title="Reset View"]');
+        await page.type('#slide-search-input', 'liquefactive');
+        await page.evaluate(() => [...document.querySelectorAll('nav button')].find(button => button.textContent.trim() === 'Liquefactive necrosis').click());
+        await page.waitForFunction(() => document.querySelector('img[alt="Liquefactive necrosis"]')?.naturalWidth > 0);
+        assert.match(page.url(), /topic=liquefactive-necrosis/);
+        await page.click('button[aria-label="Image source and licence"]');
+        await page.waitForSelector('dialog[open]');
+        assert.match(await page.$eval('dialog', dialog => dialog.textContent), /CC BY|Public domain|CC0/);
+        await page.keyboard.press('Escape');
+
+        const tool = async text => {
+            await page.click('.pd-tools-trigger');
+            await page.evaluate(text => [...document.querySelectorAll('.pd-tools-menu button')].find(button => button.textContent.trim() === text).click(), text);
+        };
+        await tool('Save this condition');
+        await page.click('.pd-tools-trigger');
+        await tool('Browse saved conditions');
+        assert.equal(await page.$$eval('nav button', buttons => buttons.some(button => button.textContent.trim() === 'Liquefactive necrosis')), true);
+        assert.equal(await page.$$eval('nav button', buttons => buttons.some(button => button.textContent.trim() === 'Coagulative necrosis')), false);
+        assert.ok(await page.$eval('.pd-saved-notice', element => element.textContent.includes('Saved conditions')));
+        await page.reload({ waitUntil: 'networkidle0' });
+        await page.click('.pd-tools-trigger');
+        assert.ok(await page.$eval('.pd-tools-menu', element => element.textContent.includes('Remove bookmark')));
+        await page.click('.pd-tools-trigger');
+        await tool('Compare conditions');
+        await page.waitForSelector('.compare-grid');
+        const before = await page.$eval('select[aria-label="Second condition"]', select => select.value);
+        await page.select('select[aria-label="Second condition"]', 'caseous-necrosis');
+        assert.notEqual(before, await page.$eval('select[aria-label="Second condition"]', select => select.value));
+        await page.waitForFunction(() => [...document.querySelectorAll('.compare-grid img')].every(image => image.naturalWidth > 0));
+        await page.screenshot({ path: 'tests/artifacts/compare-desktop.png' });
+        await page.click('.compare-column:last-child .comparison-points .text-button');
+        await page.waitForSelector('button[aria-label="Close chat"]');
+        assert.match(await page.$eval('#chat-message-input', input => input.closest('form').parentElement.textContent), /Caseous necrosis/);
+        await page.click('button[aria-label="Close chat"]');
+        await tool('Spotter practice');
+        await page.waitForSelector('.answer-option');
+        await page.click('.reveal-button');
+        assert.equal(await page.$$eval('.answer-option', buttons => buttons.every(button => button.disabled)), true);
+        await page.click('.answer-explanation .primary-button');
+        await page.click('.answer-option');
+        assert.equal(await page.$$eval('.answer-option.correct', buttons => buttons.length), 1);
+        assert.match(await page.$eval('.practice-score', element => element.textContent), /1 attempts/);
+        await tool('Atlas');
+        await page.focus('#chat-message-input');
+        await page.waitForSelector('input[type="checkbox"]');
+        assert.match(await page.$eval('body', element => element.textContent), /Include current slide image/);
+        await page.click('button[aria-label="Close chat"]');
+        await page.screenshot({ path: 'tests/artifacts/atlas-desktop.png' });
+
+        await page.waitForFunction(() => Boolean(navigator.serviceWorker.controller));
+        await page.evaluate(() => { window.__offlineProgress = null; navigator.serviceWorker.addEventListener('message', event => { if (event.data?.type === 'CACHE_PROGRESS') window.__offlineProgress = event.data; }); });
+        const candidates = JSON.parse(readFileSync('content/media.json', 'utf8')).map(image => image.localPath).reverse();
+        failOncePath = await page.evaluate(async paths => { const cache = await caches.open('path-deck-media-v1'); for (const path of paths) if (!await cache.match(path)) return path; return null; }, candidates);
+        assert.ok(failOncePath, 'Choose an image not already cached by random spotter practice');
+        await page.click('.pd-tools-trigger');
+        await page.click('.offline-control button');
+        await page.waitForFunction(() => window.__offlineProgress?.running === false && window.__offlineProgress.total > 0, { timeout: 30000 });
+        assert.equal(await page.evaluate(() => window.__offlineProgress.failed), 1);
+        assert.match(await page.$eval('.offline-message', element => element.textContent), /retry/);
+        await page.evaluate(() => { window.__offlineProgress = null; });
+        await page.click('.offline-control button');
+        await page.waitForFunction(() => window.__offlineProgress?.running === false && window.__offlineProgress.total > 0, { timeout: 30000 });
+        assert.equal(await page.evaluate(() => window.__offlineProgress.failed), 0);
+        await page.click('.pd-tools-trigger');
+        await page.setOfflineMode(true); await page.reload({ waitUntil: 'load' });
+        await page.waitForFunction(() => document.querySelector('img[alt="Liquefactive necrosis"]')?.naturalWidth > 0);
+        await page.waitForSelector('#chat-message-input');
+        assert.equal(await page.evaluate(() => document.fonts.check('16px "Material Symbols Outlined"')), true);
+        await page.setOfflineMode(false);
+        await page.setViewport({ width: 390, height: 844, isMobile: true, hasTouch: true });
+        await page.goto(origin, { waitUntil: 'networkidle0' });
+        await page.waitForFunction(() => document.querySelector('img[alt="Coagulative necrosis"]')?.naturalWidth > 0);
+        await page.tap('button[title="Next Slide"]');
+        const box = await page.$eval('img[alt="Coagulative necrosis"]', image => { const box = image.getBoundingClientRect(); return { x: box.x + box.width / 2, y: box.y + box.height / 2 }; });
+        const session = await page.createCDPSession();
+        const points = spread => [{ x: box.x - spread, y: box.y, id: 1 }, { x: box.x + spread, y: box.y, id: 2 }];
+        await session.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: points(25) });
+        await session.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: points(50) });
+        await session.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+        assert.match(await page.$eval('img[alt="Coagulative necrosis"]', image => image.parentElement.style.transform), /scale\(2\)/);
+        await page.tap('button[title="Previous Slide"]');
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+        await page.tap('button[aria-label="Open navigation"]');
+        await page.type('#slide-search-input', 'amyloid');
+        await page.evaluate(() => [...document.querySelectorAll('nav button')].find(button => button.textContent.trim() === 'Amyloidosis').click());
+        await page.waitForFunction(() => document.querySelector('img[alt="Amyloidosis"]')?.naturalWidth > 0);
+        await page.screenshot({ path: 'tests/artifacts/atlas-mobile.png', fullPage: true });
+        assert.deepEqual(errors, []);
+        console.log('Browser verified: original dark design, source attribution, bookmarks, comparisons, fair spotter scoring, chat UI, offline fonts/images, mobile taps/pinch/search.');
+    } finally { await browser.close(); await new Promise(resolve => server.close(resolve)); }
+});
