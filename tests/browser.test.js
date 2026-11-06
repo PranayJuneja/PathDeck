@@ -78,6 +78,13 @@ test('Tissue Deck design, atlas controls, new study tools, mobile gestures and o
         await page.focus('#chat-message-input');
         await page.waitForSelector('input[type="checkbox"]');
         assert.match(await page.$eval('body', element => element.textContent), /Include current slide image/);
+        // The guest lock must start authentication even without a typed question.
+        await page.evaluate(() => { window.__originalOpen = window.open; window.__signInPopupAttempts = 0; window.open = () => { window.__signInPopupAttempts++; return null; }; });
+        await page.click('button[aria-label="Sign in to chat"]');
+        await page.waitForFunction(() => window.__signInPopupAttempts === 1);
+        await page.waitForFunction(() => [...document.querySelectorAll('[role="alert"]')].some(node => node.textContent.includes('Allow pop-ups')));
+        assert.equal(await page.$eval('#chat-message-input', input => input.value), '');
+        await page.evaluate(() => { window.open = window.__originalOpen; });
         await page.click('button[aria-label="Close chat"]');
         await page.screenshot({ path: 'tests/artifacts/atlas-desktop.png' });
 

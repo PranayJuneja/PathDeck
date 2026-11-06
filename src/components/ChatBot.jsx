@@ -11,7 +11,7 @@ export default function ChatBot({ tissueContext, tissueId, attachedImageId }) {
 }
 
 function ChatSession({ tissueContext, tissueId, attachedImageId }) {
-    const { user, signInWithGoogle, getIdToken } = useAuth();
+    const { user, signInWithGoogle, getIdToken, authError, signingIn } = useAuth();
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -90,12 +90,13 @@ function ChatSession({ tissueContext, tissueId, attachedImageId }) {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!input.trim() || isLoading) return;
-
+        if (isLoading || signingIn) return;
         if (!user) {
+            setIsExpanded(true);
             signInWithGoogle();
             return;
         }
+        if (!input.trim()) return;
 
         const userMessage = { role: 'user', content: input.trim(), imageTitle: includeSlide && attachedImageId ? imagesByTopic.get(tissueId)?.find(image => image.id === attachedImageId)?.title : null };
         const startIndex = messages.length;
@@ -241,7 +242,7 @@ function ChatSession({ tissueContext, tissueId, attachedImageId }) {
                                 <span></span><span></span><span></span>
                             </div>
                         )}
-                        {error && <p role="alert" className={styles.error}>{error}</p>}
+                        {(error || authError) && <p role="alert" className={styles.error}>{error || authError}</p>}
                         <div ref={messagesEndRef} />
                     </div>
                 </div>
@@ -271,7 +272,7 @@ function ChatSession({ tissueContext, tissueId, attachedImageId }) {
                 <button
                     type="submit"
                     className={styles.sendBtn}
-                    disabled={isLoading || remaining === 0}
+                    disabled={isLoading || signingIn || remaining === 0}
                     aria-label={
                         !user
                             ? "Sign in to chat"
